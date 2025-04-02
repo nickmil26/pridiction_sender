@@ -13,7 +13,7 @@ api_id = '25805299'  # Replace with your API ID
 api_hash = '77a9f45c0d8e3b5004ff1f689ad91aad'  # Replace with your API hash
 
 # Telegram channel username
-channel_username = 'Rudraxkaviator'  # Replace with your channel username
+channel_username = 'testsub01'  # Replace with your channel username
 
 # List of reactions (Telegram emojis)
 reactions = ['👍', '❤️', '🔥', '🎉', '👏']
