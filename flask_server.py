@@ -21,4 +21,5 @@ def upload_image():
     return jsonify({"message": "Image processed and sent to Telegram"}), 200
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    port = int(os.getenv("PORT", 5000))  # Render assigns a dynamic port
+    app.run(host="0.0.0.0", port=port)
