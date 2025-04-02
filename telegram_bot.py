@@ -9,9 +9,8 @@ from telethon.tl.types import ReactionEmoji
 accounts = pd.read_csv('accounts.csv')
 
 # Telegram API credentials
-api_id = '25805299'  # Replace with your API ID
-api_hash = '77a9f45c0d8e3b5004ff1f689ad91aad'  # Replace with your API hash
-
+api_id = os.getenv("API_ID")
+api_hash = os.getenv("API_HASH")
 # Telegram channel username
 channel_username = 'testsub01'  # Replace with your channel username
 
