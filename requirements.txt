@@ -1,0 +1,4 @@
+flask
+asyncio
+telethon
+pandas
